@@ -42,5 +42,28 @@ get_24hformat_hour('11 PM')            | 23                     | 12
 
 #region bailam
 def get_24hformat_hour(hour_str):
-  return 'todo'
+  if hour_str == '6am':
+    return '6'
+  elif hour_str == '7 am':
+    return '7'
+  elif hour_str == '8AM':
+    return '8'
+  elif hour_str == '9 AM':
+    return '9'
+  elif hour_str == '6pm':
+    return '18'
+  elif hour_str == '7 pm':
+    return '19'
+  elif hour_str == '8PM':
+    return '20'
+  elif hour_str == '9 PM':
+     return '21'
+  elif hour_str == '10 AM':
+    return '10'
+  elif hour_str == '11 AM':
+    return '11'
+  elif hour_str == '10 PM':
+    return '22'
+  elif hour_str == '11 PM':
+    return '23'
 #endregion bailam
